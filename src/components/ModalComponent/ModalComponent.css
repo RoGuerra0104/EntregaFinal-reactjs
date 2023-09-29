@@ -1,0 +1,150 @@
+.btnModal{
+    background-color: #001d3d;
+    margin-left: 15px;
+}
+
+.fa-user{
+    display: flex;
+    padding: 10px;
+    border: solid 1px #fff;
+    border-radius: 25px;
+}
+.fa-user:hover{
+    background-color: #00b4d8;
+    border: solid 1px #00b4d8;
+}
+
+.btnModal{
+    --bs-btn-padding-x: 0rem;
+    --bs-btn-padding-y: 0rem;
+    --bs-btn-border-radius:none
+}
+
+.btnModal.btn-primary {
+    --bs-btn-border-color:none;
+    --bs-btn-hover-border-color:none;
+    --bs-btn-hover-bg:none;
+    --bs-btn-active-bg:none;
+    
+}
+
+.modal-title{
+    background-color: black;
+}
+
+.modal-header{
+    color: #fff;
+    background-color: black;
+}
+
+.modal-body{
+    color: #fff;
+    background-color: black;
+
+}
+
+.modal-footer{
+    background-color: black;
+
+}
+
+.btn-close{
+    /* color: #fff !important; */
+    --bs-btn-close-bg: url(https://ouch-cdn2.icons8.com/8P7Vf0L7CC-3WYr-cB7O7GnmWwDuqXtkCxWNZqBgPqk/rs:fit:293:456/extend:false/wm:1:re:0:0:0.8/wmid:ouch/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvOTY0/LzU0NzhkNDAyLTI0/MWItNDg4NC05YzBj/LWFjYjcwMzE3Y2Y0/ZC5zdmc.png)
+}
+
+.form{
+    background-color: black;
+}
+
+.mb-3{
+    background-color: black;
+}
+
+.formModal{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px #fff;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+
+.formModal:hover{
+    border: solid 2px #00b4d8;
+}
+
+.labelCheckbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    
+}
+
+.checkboxInput{
+    background-color: black;
+    display: flex;
+    margin-top: 5px;
+}
+
+
+.lbl-switch{
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background-color: #aaa;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#formModal:checked~.lbl-switch{
+    background-color: green;
+
+}
+
+.lbl-switch::after{
+    position: absolute;
+    content: "";
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+#formModal:checked~.lbl-switch:after{
+    left: 28px;
+    
+}
+
+#formModal{
+    display: none;
+}
+
+.notificaciones{
+    font-size:smaller;
+    color: #aaa;
+    background-color: black;
+    padding-top: 5px;
+}
+
+.btnSave{
+    background-color: #001d3d;
+}
+
+.btnSave:hover{
+    background-color: #00b4d8;
+}
+
+.btnClose:hover{
+    background-color: red;
+}

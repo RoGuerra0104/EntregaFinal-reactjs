@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+
+.container{
+    background-color: #001d3d !important;
+}
+
+.LinkCategory{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #001d3d;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.6s;
+    font-family: dosis;
+}
+
+.LinkCategory:hover{
+    background-color: #00b4d8;
+    transition: all 0.6s
+}
+
+.btnCategory{
+    background-color: #fff;
+    border: none;
+}
+
+.home{
+    color:#caf0f8;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.home:hover{
+    color: #00b4d8;
+    transition: all 0.3s
+}
+
+.dropdown-menu{
+    border: solid 2px #fff;
+    background-color: #001d3d;
+}
+
+
+.dropdown-item:hover{
+    background-color: #00b4d8;
+}
+.dropdown-item{
+    padding: 0;
+}
+.NavDropdownLink{
+    display: flex;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-around;
+
+}
+.NavDropdownLink:hover{
+    background-color: #00b4d8;
+    color: black;
+}

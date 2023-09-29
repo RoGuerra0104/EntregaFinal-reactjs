@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+.productsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: mooli;
+}
+
+.btn-primary.btnCard  {
+    --bs-btn-hover-bg: #00b4d8;
+}
+
+.card {
+    border: solid 3px #001d3d;
+    justify-content: start;
+}
+
+.card-body{
+    background-color: black ;
+}
+
+.cardTitle, .card-text{
+    color: #001d3d;
+    background-color: black ;
+}
+
+.btnCard{
+    color: #fff;
+    background-color: #001d3d;
+}

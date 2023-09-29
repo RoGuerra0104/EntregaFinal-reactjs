@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+
+.card{
+    background-color: black !important;
+    border: solid 1px #fff;
+    width: 25rem;
+    margin: 0 auto;
+    font-family: mooli;
+}
+
+.cardTitle{
+    color: #fff;
+}
+
+.cardFooter{
+    color: #fff;
+}
+
+.cardSmall{
+    font-size: 25px;
+    background-color: black;
+}
+
+.btnItemDetail{
+    margin-top: 15px;
+}
+
+
+.carousel-indicators{
+    background-color: transparent ;
+}
+
+.carousel .carousel-indicators [data-bs-target]{
+    background-color: aqua;
+}
